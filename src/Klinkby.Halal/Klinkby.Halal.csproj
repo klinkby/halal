@@ -14,7 +14,7 @@
         <PackageLicenseFile>LICENSE</PackageLicenseFile>
         <PackageReadmeFile>README.md</PackageReadmeFile>
         <PackageTags>HAL Hypermedia REST JSON API AoT</PackageTags>
-        <PackageVersion>1.0.0-alpha</PackageVersion>
+        <PackageVersion>1.0.0</PackageVersion>
         <RepositoryUrl>https://github.com/klinkby/halal</RepositoryUrl>
     </PropertyGroup>
 

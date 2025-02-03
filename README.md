@@ -1,6 +1,7 @@
 # Klinkby.Halal
 
-[![Build Status](https://travis-ci.org/Klinkby/Halal.svg?branch=master)](https://travis-ci.org/Klinkby/Halal)
+[![Workflow](https://github.com/klinkby/halal/actions/workflows/main.yml/badge.svg)](https://github.com/klinkby/toolkitt/actions/workflows/dotnet.yml)
+[![CodeQL](https://github.com/klinkby/halal/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/klinkby/toolkitt/actions/workflows/github-code-scanning/codeql)
 [![NuGet](https://img.shields.io/nuget/v/Klinkby.Halal.svg)](https://www.nuget.org/packages/Klinkby.Halal/)
 [![GitHub](https://img.shields.io/github/license/Klinkby/Halal.svg)](https://github.com/klinkby/halal/LICENSE)
 
