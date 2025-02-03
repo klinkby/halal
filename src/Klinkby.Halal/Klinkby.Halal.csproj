@@ -1,0 +1,47 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netstandard2.1</TargetFramework>
+        <IsPackable>true</IsPackable>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    </PropertyGroup>
+
+    <PropertyGroup Label="Nuget metadata properties">
+        <Authors>@klinkby</Authors>
+        <Description>The Klinkby.Halal project provides a set of classes and methods for creating and managing resources and links in HAL (Hypertext Application Language) documents.</Description>
+        <PackageIcon>icon.png</PackageIcon>
+        <PackageId>Klinkby.Halal</PackageId>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageTags>HAL Hypermedia REST JSON API AoT</PackageTags>
+        <PackageVersion>1.0.0-alpha</PackageVersion>
+        <RepositoryUrl>https://github.com/klinkby/halal</RepositoryUrl>
+    </PropertyGroup>
+
+    <ItemGroup Label="Nuget package references">
+        <PackageReference Include="Meziantou.Polyfill" Version="1.0.42">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Update="DotNet.ReproducibleBuilds" Version="1.2.25">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+        <PackageReference Include="System.Text.Json" Version="6.0.10" />
+    </ItemGroup>
+
+    <PropertyGroup Label="Polyfill">
+        <MeziantouPolyfill_IncludedPolyfills>T:System.Runtime.CompilerServices</MeziantouPolyfill_IncludedPolyfills>
+    </PropertyGroup>
+
+    <ItemGroup Label="Nuget metadata files">
+        <None Include="../../LICENSE" Pack="true" PackagePath="/"/>
+        <None Include="../../README.md" Pack="true" PackagePath="/"/>
+        <None Include="icon.png" Pack="true" PackagePath="/"/>
+    </ItemGroup>
+
+    <ItemGroup Label="Global using directives">
+        <Using Include="System.Text.Json.Serialization" />
+        <Using Include="System.Collections.Generic.SortedList&lt;string, Klinkby.Halal.HalLink&gt;" Alias="LinkMap" />
+    </ItemGroup>
+</Project>

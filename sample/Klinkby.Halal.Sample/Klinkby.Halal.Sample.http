@@ -1,0 +1,11 @@
+@Klinkby.Halal.Sample_HostAddress = http://localhost:5168
+
+GET {{Klinkby.Halal.Sample_HostAddress}}/todos/
+Accept: application/json
+
+###
+
+GET {{Klinkby.Halal.Sample_HostAddress}}/todos/1
+Accept: application/json
+
+###
