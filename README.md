@@ -3,7 +3,7 @@
 [![Workflow](https://github.com/klinkby/halal/actions/workflows/main.yml/badge.svg)](https://github.com/klinkby/toolkitt/actions/workflows/dotnet.yml)
 [![CodeQL](https://github.com/klinkby/halal/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/klinkby/toolkitt/actions/workflows/github-code-scanning/codeql)
 [![NuGet](https://img.shields.io/nuget/v/Klinkby.Halal.svg)](https://www.nuget.org/packages/Klinkby.Halal/)
-[![GitHub](https://img.shields.io/github/license/Klinkby/Halal.svg)](https://github.com/klinkby/halal/LICENSE)
+[![GitHub](https://img.shields.io/github/license/Klinkby/Halal.svg)](https://github.com/klinkby/halal/blob/main/LICENSE)
 
 The `Klinkby.Halal` project provides a set of immutable classes that serve as base for creating and managing resources 
 and links in HAL (Hypertext Application Language) documents. It is designed to facilitate the implementation of 
